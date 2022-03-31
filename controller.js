@@ -14,7 +14,7 @@ function puan(event){
     event.preventDefault()
     let girdi = document.querySelector("#input1").value
     // console.log(girdi);
-    takım1 += parseInt(girdi) ;
+    takım1 += Number(girdi) ;
     // console.log(takım1);
     localStorage.getItem(input1,girdi.value)
     document.querySelector(".con3").innerHTML = takım1;
